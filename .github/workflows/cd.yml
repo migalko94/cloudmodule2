@@ -30,4 +30,4 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        run: npm run deploy -- -r git@github.com:cloudmodule2
+        run: npm run deploy -- -r git@github.com:migalko94/cloudmodule2.git
